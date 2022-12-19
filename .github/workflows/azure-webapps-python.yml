@@ -56,5 +56,5 @@ jobs:
         id: deploy-to-webapp
         with:
           app-name: 'kkapptest2023'
-          #slot-name: 'Production'
+          slot-name: 'Production'
           publish-profile: ${{ secrets.AZURE_WEBAPP_PUBLISH_PROFILE }}
